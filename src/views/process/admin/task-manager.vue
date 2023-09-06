@@ -97,6 +97,7 @@
               <el-select v-model="ruleForm.classify" placeholder="请选择任务类型" style="width: 50%" @change="selectTaskType">
                 <el-option label="Python" value="python" />
                 <el-option label="Shell" value="shell" />
+                <el-option label="Http" value="http" />
               </el-select>
             </el-form-item>
             <el-form-item label="任务" prop="content">
